@@ -9,7 +9,7 @@ import LatestRelease from './components/LatestRelease';
 
 function App() {
   return (
-    <>
+    <div class="body">
       <MyNav title="The Book Spot" />
 
       <Welcome title="The Book Spot" />
@@ -17,7 +17,7 @@ function App() {
       <LatestRelease />
 
       <MyFooter />
-    </>
+    </div>
   );
 }
 
