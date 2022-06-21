@@ -8,8 +8,8 @@ class LatestRelease extends Component {
         return (
             <Container>
                 <Row>
-                    <div className="col-12 text-center"><h1>Sci-Fi Books</h1></div>
-                    {scifiBooksArray.map(book => (
+                    <div className="col-12 text-center "><h1>Sci-Fi Books</h1></div>
+                    {scifiBooksArray.slice(0, 12).map(book => (
 
                         < Col sm={6} md={4} lg={3} className="mb-3 d-flex" >
                             <Card key={book.asin} >
